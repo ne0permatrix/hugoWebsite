@@ -1,4 +1,4 @@
-baseURL = "https://ne0permatrix.github.io/hugoWebsite/"
+baseURL = "http://www.panhasuon.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-theme-minos"
