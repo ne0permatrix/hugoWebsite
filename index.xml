@@ -5,6 +5,25 @@
     <link>https://ne0permatrix.github.io/hugoWebsite/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ne0permatrix.github.io/hugoWebsite/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Dec 2020 21:02:14 +0700</lastBuildDate><atom:link href="https://ne0permatrix.github.io/hugoWebsite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://ne0permatrix.github.io/hugoWebsite/my-first-post/</link>
+      <pubDate>Fri, 18 Dec 2020 22:15:55 +0700</pubDate>
+      
+      <guid>https://ne0permatrix.github.io/hugoWebsite/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Market Gardener</title>
+      <link>https://ne0permatrix.github.io/hugoWebsite/posts/natural-farming/the-market-gardener/</link>
+      <pubDate>Fri, 18 Dec 2020 21:02:14 +0700</pubDate>
+      
+      <guid>https://ne0permatrix.github.io/hugoWebsite/posts/natural-farming/the-market-gardener/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
