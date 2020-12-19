@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://ne0permatrix.github.io/hugoWebsite/</link>
+    <link>http://www.panhasuon.com/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Dec 2020 21:02:14 +0700</lastBuildDate><atom:link href="https://ne0permatrix.github.io/hugoWebsite/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 21:02:14 +0700</lastBuildDate><atom:link href="http://www.panhasuon.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://ne0permatrix.github.io/hugoWebsite/my-first-post/</link>
+      <link>http://www.panhasuon.com/my-first-post/</link>
       <pubDate>Fri, 18 Dec 2020 22:15:55 +0700</pubDate>
       
-      <guid>https://ne0permatrix.github.io/hugoWebsite/my-first-post/</guid>
+      <guid>http://www.panhasuon.com/my-first-post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Market Gardener</title>
-      <link>https://ne0permatrix.github.io/hugoWebsite/posts/natural-farming/the-market-gardener/</link>
+      <link>http://www.panhasuon.com/posts/natural-farming/the-market-gardener/</link>
       <pubDate>Fri, 18 Dec 2020 21:02:14 +0700</pubDate>
       
-      <guid>https://ne0permatrix.github.io/hugoWebsite/posts/natural-farming/the-market-gardener/</guid>
+      <guid>http://www.panhasuon.com/posts/natural-farming/the-market-gardener/</guid>
       <description></description>
     </item>
     
