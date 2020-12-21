@@ -1,4 +1,5 @@
 baseURL = "http://www.panhasuon.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Panha Suon's Thought Arhive"
 theme = "hugo-theme-minos"
+paginate = 10
