@@ -1,5 +1,5 @@
 baseURL = "http://www.panhasuon.com/"
 languageCode = "en-us"
-title = "Panha Suon's Thought Arhive"
+title = "Panha Suon's Thought Archive"
 theme = "hugo-theme-minos"
 paginate = 10
