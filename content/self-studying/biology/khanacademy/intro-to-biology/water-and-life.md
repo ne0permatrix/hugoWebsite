@@ -2,8 +2,8 @@
 title: "Water and Life"
 date: 2020-12-26T05:55:44+07:00
 draft: true
-tags: ["self-studying"]
-categories: ["Biology","Self-studying"]
+tags: ["self-studying","khanacademy"]
+categories: ["Biology"]
 ---
 # **Water Properties**
 

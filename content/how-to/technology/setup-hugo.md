@@ -2,6 +2,8 @@
 title: "Setup Hugo & Host on Github"
 date: 2020-12-21T09:20:03+07:00
 draft: true
+tags: ["how-to"]
+categories: ["Technology"]
 ---
 # **Setting Hugo Website & Host on Github**
 

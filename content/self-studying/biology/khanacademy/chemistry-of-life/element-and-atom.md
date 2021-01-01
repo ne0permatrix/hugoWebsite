@@ -2,6 +2,8 @@
 title: "Element and Atom"
 date: 2020-12-28T07:02:36+07:00
 draft: true
+tags: ["self-studying", "khanacademy"]
+categories: ["Biology"]
 ---
 # **Matter, Elements, &  Atoms**
 
