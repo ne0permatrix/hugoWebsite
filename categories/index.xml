@@ -5,6 +5,25 @@
     <link>http://www.panhasuon.com/categories/</link>
     <description>Recent content in Categories on Panha Suon&#39;s Thought Archive</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://www.panhasuon.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Dec 2020 05:55:44 +0700</lastBuildDate><atom:link href="http://www.panhasuon.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biology</title>
+      <link>http://www.panhasuon.com/categories/biology/</link>
+      <pubDate>Sat, 26 Dec 2020 05:55:44 +0700</pubDate>
+      
+      <guid>http://www.panhasuon.com/categories/biology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-studying</title>
+      <link>http://www.panhasuon.com/categories/self-studying/</link>
+      <pubDate>Sat, 26 Dec 2020 05:55:44 +0700</pubDate>
+      
+      <guid>http://www.panhasuon.com/categories/self-studying/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
