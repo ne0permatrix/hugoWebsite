@@ -3,3 +3,8 @@ languageCode = "en-us"
 title = "Panha Suon's Thought Archive"
 theme = "hugo-theme-minos"
 paginate = 10
+
+Description = ""
+Tags = ["development", "golang"]
+Categories = ["Development", "Golang"]
+menu = ""
