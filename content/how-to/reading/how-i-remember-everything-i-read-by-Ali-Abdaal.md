@@ -9,7 +9,7 @@ tags: ["how-to","youtube-video"]
 # Why should you read this article? <br>
 If you can't retain and apply what you have read into making your life better or solving problems better, reading this can give you some insight on what you can do to actually remember what you read and not only that to store it in your knowledge bank, long term memory, ready-to-be used whenever you need it.        
 
-Accumalating knowledge in your long term memory can be very useful because it can serve as a building block or foundation knowledge for you to build upon when learning a more compicated concept/topic.       
+Accumalating knowledge in your long term memory can be very useful because it can serve as a building block or foundation knowledge for you to build upon when learning a more complicated concept/topic.       
 
 ## **Level 1 : THE MUGGLE** <br>
 *Passive reading with very minimum engagement.*         
@@ -59,4 +59,6 @@ In this step, we still follow everything in *Level 5*. In addition, we can have 
 ## **Level 7 : DUMBLEDORE** <br>
 *Reading, categorizing, and heavily linking one reading material to another.*         
 
-This is the most detail and engaging level. Not only that we take literature note on what we have read, but we link specific insights, ideas, or concepts from within it to others and organize it/put it away into appropriate and relevant category. 
+This is the most detail and engaging level. Not only that we take literature note on what we have read, but we link specific insights, ideas, or concepts from within it to others and organize it/put it away into appropriate and relevant category.    
+
+[Watch the video by Ali Abdaal for detail!](https://www.youtube.com/watch?v=AjoxkxM_I5g)
