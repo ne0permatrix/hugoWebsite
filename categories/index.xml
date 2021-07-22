@@ -6,9 +6,37 @@
     <description>Recent content in Categories on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jul 2021 16:38:27 +0700</lastBuildDate>
     
 	<atom:link href="https://ne0permatrix.github.io/hugoWebsite/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Biology</title>
+      <link>https://ne0permatrix.github.io/hugoWebsite/categories/biology/</link>
+      <pubDate>Thu, 22 Jul 2021 16:38:27 +0700</pubDate>
+      
+      <guid>https://ne0permatrix.github.io/hugoWebsite/categories/biology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>https://ne0permatrix.github.io/hugoWebsite/categories/technology/</link>
+      <pubDate>Thu, 22 Jul 2021 16:36:30 +0700</pubDate>
+      
+      <guid>https://ne0permatrix.github.io/hugoWebsite/categories/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reading</title>
+      <link>https://ne0permatrix.github.io/hugoWebsite/categories/reading/</link>
+      <pubDate>Thu, 22 Jul 2021 16:35:03 +0700</pubDate>
+      
+      <guid>https://ne0permatrix.github.io/hugoWebsite/categories/reading/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

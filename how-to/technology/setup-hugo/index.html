@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Setup Hugo // My New Hugo Site</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    
+    
+    
+
+        <meta property="og:title" content="Setup Hugo" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:url" content="https://ne0permatrix.github.io/hugoWebsite/how-to/technology/setup-hugo/" />
+    
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link href="https://ne0permatrix.github.io/hugoWebsite/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+    <link href="https://ne0permatrix.github.io/hugoWebsite/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://ne0permatrix.github.io/hugoWebsite/css/style.css">
+    
+
+    <meta name="generator" content="Hugo 0.68.3" />
+</head>
+
+
+<body>
+<div id="container">
+    <header id="header">
+    <div id="header-outer" class="outer">
+        <div id="header-inner" class="inner">
+            <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+            <a id="logo" class="logo-text" href="https://ne0permatrix.github.io/hugoWebsite/">My New Hugo Site</a>
+            <nav id="main-nav">
+                
+            </nav>
+            <nav id="sub-nav">
+                <div id="search-form-wrap">
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <section id="main" class="outer">
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        <header class="article-header">
+            <h1 class="article-title" itemprop="name">Setup Hugo</h1>
+        </header>
+        
+        <div class="article-meta">
+            <a href="/hugoWebsite/how-to/technology/setup-hugo/" class="article-date">
+                <time datetime='2021-07-22T16:36:30.000&#43;07:00' itemprop="datePublished">2021-07-22</time>
+            </a>
+            
+            
+            <div class="post-categories">
+                <div class="article-category">
+                    
+                    
+                    <a class="article-category-link" href="https://ne0permatrix.github.io/hugoWebsite//categories/technology">Technology</a>
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="article-entry" itemprop="articleBody">
+            <h2 id="setting-hugo-website--host-on-github"><strong>Setting Hugo Website &amp; Host on Github</strong></h2>
+<h3 id="quick-usage-instructions"><strong>Quick Usage Instructions</strong></h3>
+<ol>
+<li>Edit/add new content, this will automatically create new article in &ldquo;content&rdquo; directory.<br>
+<code>hugo new &lt;subdirectory_name&gt;/&lt;articlename.extension&gt;</code><br>
+Ex. hugo new posts/new_post.md</li>
+<li>Push everything from project root &ldquo;hugoWebsite&rdquo; to Github <!-- raw HTML omitted --> <br>
+<code>git status</code> <br>
+<code>git add .</code>       <br>
+<code>git commit -m &quot;added new article&quot;</code>      <br>
+<code>git push origin main</code></li>
+<li>Render the content to &ldquo;public&rdquo; directory     <br>
+<code>hugo -D</code></li>
+<li>Go to &ldquo;public&rdquo; directory and commit everything to GitHub    <br>
+<code>cd public</code><br>
+<code>git status</code><br>
+<code>git add .</code><br>
+<code>git commit -m &quot;added new content&quot;</code><br>
+<code>git push origin gh-pages</code>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --></li>
+</ol>
+<h3 id="how-to-setup-in-detail"><strong>How to Setup in Detail</strong></h3>
+<p><strong>1.</strong> Create local project directory called &ldquo;hugoWebsite&rdquo;.   <br>
+Follow Quick Start in below link   <br>
+<a href="https://gohugo.io/getting-started/quick-start/#step-7-build-static-pages">https://gohugo.io/getting-started/quick-start/#step-7-build-static-pages</a>    <br>
+Make sure everything work.       <br>
+<strong>2.</strong> Before proceeding, make sure that you create a project repository in Github &ldquo;hugoWebsite&rdquo; under the branch &ldquo;main&rdquo; instead of &ldquo;master&rdquo;.      <br>
+<strong>3.</strong> Then push all the content in local project directory &ldquo;hugoWebsite&rdquo; onto remote Github repo &ldquo;hugoWebsite&rdquo;.       <br>
+<code>git init</code><br>
+<code>git add .</code><br>
+<code>git commit -m &quot;first commit&quot;</code> <br>
+<code>git branch -M main</code><br>
+<code>git remote add origin https://github.com/ne0permatrix/hugoWebsite.git</code> <br>
+<code>git push -u origin main</code><br>
+<strong>4.</strong> Deployment of Project Pages From Your gh-pages branch.<br>
+<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a><br>
+<!-- raw HTML omitted --><br>
+<strong>I. Preparations for gh-pages Branch</strong><br>
++ Add the &ldquo;public&rdquo; folder:
+Add &ldquo;public&rdquo; folder to your &ldquo;.gitignore&rdquo; file at the project root so that the directory is ignored on the main branch.<br>
+<code>echo &quot;public&quot; &gt;&gt; .gitignore</code>    <br>
++ You can now initialize your gh-pages branch as an empty orphan branch:<br>
+<code>git checkout --orphan gh-pages</code>     <br>
+<code>git reset --hard</code> (don&rsquo;t use this if it delete files/direcotries in branch main)           <br>
+<code>git commit --allow-empty -m &quot;Initializing gh-pages branch&quot;</code>   <br>
+<code>git push &lt;upstream&gt; gh-pages</code>       <br>
+ex: git push origin gh-pages   <br>
+<code>git checkout main</code></p>
+<pre><code>**II. Build and Deployment**  
++ Now check out the gh-pages branch into your public forlder using git's worktree feature. Essentially, the worktree allows you to have multiple branches of the same local repository to be checked out in different directories:  
+    ``rm -rf public``  
+    ``git worktree add -B gh-pages public origin/gh-pages``
+
++ Regenerate the site using the hugo command and commit the generated files on the gh-pages branch: hugo (run not in &quot;public&quot; direcotry but in project root   directory)  
+``cd public``  
+``git add .``  
+``git commit -m &quot;...&quot;``  
+``cd ..``
+
++ If the changes in your local gh-pages branch look alright, push them to the remote repo:
+``git push origin gh-pages``
++ Set gh-pages as your publish branch  
+    In order to use your gh-pages branch as your publishing branch, you?ll need to configure the repository within the GitHub UI. This will likely happen automatically once GitHub realizes you?ve created this branch. You can also set the branch manually from within your GitHub project:
+
+    + Go to Settings
+    + Go to GitHub Pages Section
+    + From Source, select &quot;gh-pages&quot; branch and then save      
+    If the option isn't enabled, you likely have not created the branch yet OR you have not pushed the branch from your local machine to the hosted repository on GitHub.
+
+    After a short while, you?ll see the updated contents on your GitHub Pages site.
+</code></pre>
+<ol start="5">
+<li>
+<p>Configuration</p>
+<ul>
+<li>Change &ldquo;baseURL&rdquo; in config.toml to gh-pages website link &ldquo;<a href="https://ne0permatrix.github.io/hugoWebsite/%22">https://ne0permatrix.github.io/hugoWebsite/&quot;</a></li>
+<li>Then run  <code>hugo</code></li>
+<li>Then add, commit, and push &ldquo;public&rdquo; directory to Github</li>
+<li>Also add, commit, and push project root directory &ldquo;hugoWebsite&rdquo; to GitHub.</li>
+</ul>
+<p><strong>Problem</strong> : the articles from &ldquo;content&rdquo; directory in &ldquo;hugoWebsite&rdquo; project root don&rsquo;t render to &ldquo;public&rdquo; directory.</p>
+<p>After everything is set, I only ran <code>hugo</code> in project root directory &ldquo;hugoWebsite&rdquo;.<br>
+What <code>hugo</code> does is to render the site to &ldquo;public&rdquo; directory.</p>
+<p><strong>Solution</strong> :</p>
+<ul>
+<li>Instead of running <code>hugo</code>, I ran <code>hugo -D</code> in project root directory &ldquo;hugoWebsite&rdquo;</li>
+<li>Then I push everything from &ldquo;public&rdquo; directory to GitHub.<br>
+<code>git status</code><br>
+<code>git add .</code><br>
+<code>git commit -m &quot;ran hugo -D&quot;</code><br>
+<code>git push origin gh-pages</code></li>
+</ul>
+</li>
+<li>
+<p>Adding Custom Domain to Github Pages</p>
+</li>
+</ol>
+<ul>
+<li>Go to your domain (panhasuon.com) manager (1and1/IONOS)</li>
+<li>Config DNS by adding Github Ips like in the picture</li>
+<li>Go to your Github project root repo, in Setting add Domain Name (<a href="http://www.panhasuon.com">www.panhasuon.com</a>)</li>
+<li>Then add CNAME file / It will be added automatically
+More Detail on how to do it, watch this video at 09:52min.<br>
+<a href="https://www.youtube.com/watch?v=SKXkC4SqtRk&amp;t=618s">https://www.youtube.com/watch?v=SKXkC4SqtRk&amp;t=618s</a></li>
+</ul>
+<ol start="7">
+<li>Add New Custom Domain to config.toml in project root &ldquo;hugoWebsite&rdquo; <!-- raw HTML omitted --></li>
+</ol>
+<ul>
+<li>Add <em>http//:www.panhasuon.com</em> to config.toml</li>
+<li>Render Everything to <em>public</em> directory
+<code>hugo -D</code></li>
+<li>Go to <em>public</em> directory and push everything to Github<br>
+<code>cd public</code><br>
+<code>git status</code><br>
+<code>git add .</code><br>
+<code>git commit -m &quot;added new custom domain to config.toml&quot;</code><br>
+<code>git push origin gh-pages</code></li>
+</ul>
+<p>From there everything should be working.</p>
+<h3 id="adding-comment-section-disqus">Adding Comment Section &ldquo;Disqus&rdquo;</h3>
+<ol>
+<li>Create Disqus account</li>
+<li>Find disqusshortname on Disqus website from admin/general/</li>
+<li>Add <code>disqusshortname = &quot;panhasuon&quot;</code> to config.toml</li>
+</ol>
+<h3 id="adding-hugo-menus-categories-and-tags">Adding <em>Hugo Menus</em> &ldquo;Categories&rdquo; and &ldquo;Tags&rdquo;</h3>
+<p><a href="https://gohugo.io/content-management/menus/">For detail, follow this link!</a>      <br>
+Add below to config.toml</p>
+<pre><code>[menu]    
+
+  [[menu.main]]
+    identifier = &quot;categories&quot;
+    name = &quot;Categories&quot;
+    pre = &quot;&lt;i class='fa fa-heart'&gt;&lt;/i&gt;&quot;
+    url = &quot;/categories/&quot;
+    weight = -110
+
+  [[menu.main]]
+    name = &quot;Tags&quot;
+    post = &quot;&lt;span class='alert'&gt;New!&lt;/span&gt;&quot;
+    pre = &quot;&lt;i class='fa fa-road'&gt;&lt;/i&gt;&quot;
+    url = &quot;/tags/&quot;
+    weight = -100
+</code></pre>
+<!-- raw HTML omitted -->
+<h3 id="error">Error</h3>
+<p><em><strong>Might encounter some merging problem from Github with CNAME file
+Solution is to do <code>git pull</code> and follow suggested intructions.</strong></em></p>
+<p><strong>Error When Pushing to gh-pages</strong>
+<img src="/static/error-push-gh-pages.jpg" alt="Error When Pushing to gh-pages">      <br>
+<strong>Solution</strong>     <br>
+Need to run <code>git pull</code></p>
+<p><strong>Error - Website doesn&rsquo;t render CSS properly</strong>
+That&rsquo;s because you don&rsquo;t change baseURL in config.toml to either &ldquo;<a href="https://ne0permatrix.github.io/hugoWebsite/%22">https://ne0permatrix.github.io/hugoWebsite/&quot;</a> or your custom domain &ldquo;<a href="https://www.panhasuon.com">https://www.panhasuon.com</a>&rdquo;.</p>
+
+        </div>
+
+        
+        
+        <div class="article-toc" >
+            <h3>Contents</h3>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#setting-hugo-website--host-on-github"><strong>Setting Hugo Website &amp; Host on Github</strong></a>
+      <ul>
+        <li><a href="#quick-usage-instructions"><strong>Quick Usage Instructions</strong></a></li>
+        <li><a href="#how-to-setup-in-detail"><strong>How to Setup in Detail</strong></a></li>
+        <li><a href="#adding-comment-section-disqus">Adding Comment Section &ldquo;Disqus&rdquo;</a></li>
+        <li><a href="#adding-hugo-menus-categories-and-tags">Adding <em>Hugo Menus</em> &ldquo;Categories&rdquo; and &ldquo;Tags&rdquo;</a></li>
+        <li><a href="#error">Error</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+        
+        
+
+        
+
+
+        
+        <footer class="article-footer">
+            <ul class="article-tag-list">
+                
+                <li class="article-tag-list-item">
+                    <a class="article-tag-list-link" href="https://ne0permatrix.github.io/hugoWebsite/tags/how-to">how-to
+                    </a>
+                </li>
+                
+            </ul>
+        </footer>
+        
+    </div>
+    
+<nav id="article-nav">
+    
+    <a href="/hugoWebsite/self-study/biology/khanacademy/chemistry-of-life/element-and-atom/" id="article-nav-newer" class="article-nav-link-wrap">
+        <div class="article-nav-title"><span>&lt;</span>&nbsp;
+            Element and Atom
+        </div>
+    </a>
+    
+    
+    <a href="/hugoWebsite/how-to/reading/how-i-remember-everything-i-read-by-ali-abdaal/" id="article-nav-older" class="article-nav-link-wrap">
+        <div class="article-nav-title">How I Remember Everything I Read by Ali Abdaal&nbsp;<span>&gt;</span></div>
+    </a>
+    
+</nav>
+
+
+</article>
+
+        
+    </section>
+    <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2021 My New Hugo Site
+            <br />
+            Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with theme <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a>
+        </div>
+    </div>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css" integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    <script>
+        document.getElementById('main-nav-toggle').addEventListener('click', function () {
+            var header = document.getElementById('header');
+            if (header.classList.contains('mobile-on')) {
+                header.classList.remove('mobile-on');
+            } else {
+                header.classList.add('mobile-on');
+            }
+        });
+    </script>
+</footer>
+
+</div>
+</body>
+</html>

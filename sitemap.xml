@@ -3,26 +3,83 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ne0permatrix.github.io/hugoWebsite/posts/my-first-post/</loc>
-    <lastmod>2021-07-22T16:09:14+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ne0permatrix.github.io/hugoWebsite/</loc>
-    <lastmod>2021-07-22T16:09:14+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ne0permatrix.github.io/hugoWebsite/posts/</loc>
-    <lastmod>2021-07-22T16:09:14+07:00</lastmod>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/categories/biology/</loc>
+    <lastmod>2021-07-22T16:38:27+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://ne0permatrix.github.io/hugoWebsite/categories/</loc>
+    <lastmod>2021-07-22T16:38:27+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/tags/khanacademy/</loc>
+    <lastmod>2021-07-22T16:38:27+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/</loc>
+    <lastmod>2021-07-22T16:38:27+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/self-study/</loc>
+    <lastmod>2021-07-22T16:38:27+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/tags/self-studying/</loc>
+    <lastmod>2021-07-22T16:38:27+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://ne0permatrix.github.io/hugoWebsite/tags/</loc>
+    <lastmod>2021-07-22T16:38:27+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/self-study/biology/khanacademy/intro-to-biology/water-and-life/</loc>
+    <lastmod>2021-07-22T16:38:27+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/self-study/biology/khanacademy/chemistry-of-life/element-and-atom/</loc>
+    <lastmod>2021-07-22T16:37:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/tags/how-to/</loc>
+    <lastmod>2021-07-22T16:36:30+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/how-to/</loc>
+    <lastmod>2021-07-22T16:36:30+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/how-to/technology/setup-hugo/</loc>
+    <lastmod>2021-07-22T16:36:30+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/categories/technology/</loc>
+    <lastmod>2021-07-22T16:36:30+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/how-to/reading/how-i-remember-everything-i-read-by-ali-abdaal/</loc>
+    <lastmod>2021-07-22T16:35:03+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/categories/reading/</loc>
+    <lastmod>2021-07-22T16:35:03+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ne0permatrix.github.io/hugoWebsite/tags/youtube-video/</loc>
+    <lastmod>2021-07-22T16:35:03+07:00</lastmod>
   </url>
   
 </urlset>
