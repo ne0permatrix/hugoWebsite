@@ -1,4 +1,24 @@
 baseURL = "https://ne0permatrix.github.io/hugoWebsite/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Panha Suon"
 theme = "hugo-theme-minos"
+paginate = 10
+
+[params]
+    smartToc = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/categories/"
+    weight = -110
+
+  [[menu.main]]
+    name = "Tags"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/tags/"
+    weight = -100
