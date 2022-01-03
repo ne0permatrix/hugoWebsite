@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Panha Suon</title>
+    <link>https://ne0permatrix.github.io/hugoWebsite/categories/technology/</link>
+    <description>Recent content in Technology on Panha Suon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jul 2021 16:36:30 +0700</lastBuildDate><atom:link href="https://ne0permatrix.github.io/hugoWebsite/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup Hugo</title>
+      <link>https://ne0permatrix.github.io/hugoWebsite/how-to/technology/setup-hugo/</link>
+      <pubDate>Thu, 22 Jul 2021 16:36:30 +0700</pubDate>
+      
+      <guid>https://ne0permatrix.github.io/hugoWebsite/how-to/technology/setup-hugo/</guid>
+      <description>Setting Hugo Website &amp;amp; Host on Github Quick Usage Instructions  Edit/add new content, this will automatically create new article in &amp;ldquo;content&amp;rdquo; directory.
+hugo new &amp;lt;subdirectory_name&amp;gt;/&amp;lt;articlename.extension&amp;gt;
+Ex. hugo new posts/new_post.md Push everything from project root &amp;ldquo;hugoWebsite&amp;rdquo; to Github git status git add . git commit -m &amp;quot;added new article&amp;quot; git push origin main Render the content to &amp;ldquo;public&amp;rdquo; directory hugo -D Go to &amp;ldquo;public&amp;rdquo; directory and commit everything to GitHub cd public</description>
+    </item>
+    
+  </channel>
+</rss>
