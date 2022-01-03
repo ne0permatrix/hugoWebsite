@@ -1,4 +1,4 @@
-baseURL = "https://panhasuon.com/hugoWebsite/"
+baseURL = "https://www.panhasuon.com/hugoWebsite/"
 languageCode = "en-us"
 title = "Panha Suon"
 theme = "hugo-theme-minos"
